@@ -1,8 +1,2 @@
 # hexlet-my-first-workflow
-1
-2
-3
-
-4
-4
-4
+![example event parameter](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?event=push)
