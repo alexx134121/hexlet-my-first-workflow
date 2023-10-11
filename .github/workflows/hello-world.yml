@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # ls -la выведет содержимое текущего репозитория
+      - run: make say-hello
