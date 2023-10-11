@@ -10,4 +10,5 @@ jobs:
     steps: # список шагов, которые надо выполнить
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: ls -la
+      - uses: actions/checkout@v3
       - run: make say-hello
